@@ -1,0 +1,572 @@
+<style type="text/css">
+	
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400,700);
+html, body{
+height:100%;
+min-height:100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Open Sans Condensed', sans-serif, sans-serif;
+}
+
+.btn{
+    border-radius:0;
+        font-family: 'Open Sans Condensed', sans-serif, sans-serif;
+        margin-bottom:15px;
+
+    }
+    
+.primary-bg{
+    background-color:#F34336;
+    color:#fff;
+    }
+    
+.primary-bg:hover, .primary-bg:focus{
+    background-color:#F22C1E;
+    color:#fff;
+    }
+.secondary-bg{
+    background-color:#20BFA9;
+    color:#fff;
+    }
+    
+.secondary-bg:hover, secondary-bg:focus{
+    background-color:#1CA996;
+    color:#fff;
+    }
+/* About
+============================================== */
+
+.about {
+  background: url(http://rolyart.ro/wp-content/uploads/2016/07/bg.png) no-repeat top center;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  min-height:100%;
+  border-bottom:1px solid #ddd;
+}
+.about .fig-profile {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto 0;
+  position: relative;
+  overflow: hidden !important;
+  border: 12px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.about .fig-profile:hover figcaption {
+  opacity: 1;
+  webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background-color: #20BFA9;
+}
+.about .fig-profile figcaption {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: center;
+  line-height: 180px;
+  opacity: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  height: 100%;
+  webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  color: #fff;
+  font-size: 24px;
+}
+.about .name {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin: 20px 0 0 0;
+}
+
+.about .caption{
+    font-size:16px;
+    }
+.about .position {
+  margin: 0;
+}
+.about .location {
+  margin: 5px 0 20px 0;
+}
+.about .slogan {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-weight: 700;
+}
+.about p {
+  font-size: 16px;
+}
+.flag {
+  width: 39px;
+  margin: 0 auto;
+}
+.flag .blue {
+  background-color: #002B7F;
+  width: 13px;
+  height: 26px;
+  float: right;
+}
+.flag .yellow {
+  background-color: #FCD116;
+  width: 13px;
+  height: 26px;
+  float: right;
+}
+.flag .red {
+  background-color: #CE1126;
+  width: 13px;
+  height: 26px;
+  float: right;
+}
+
+/* Title Divider
+============================================ */
+.title-divider {
+  margin: 0 auto;
+  max-width: 400px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 10px 0;
+}
+.hr-divider {
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  float: left;
+  bottom: -4px;
+}
+.icon-separator {
+  float: left;
+  text-align: center;
+  margin-top: -7px;
+  font-size: 18px;
+  color: #F34336;
+  padding: 0;
+}
+.heading-divider {
+  margin-bottom: 40px;
+  margin-top: 30px;
+  display: flex;
+}
+.heading-divider .title {
+  flex-grow: 0;
+  -webkit-flex-grow: 0;
+  margin: 0 5px 0 0;
+  line-height: 1px;
+}
+.heading-divider .line-separator {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  height: 6px;
+  position: relative;
+}
+
+/*Summary*/
+.bs-callout h4 {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4{
+    color: #d9534f;
+
+}
+.table-email .media h4 {
+  margin: 0px;
+  font-size: 14px;
+  line-height: normal;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+/*Certifications*/
+.pic_ina
+{
+    height:100%;
+    width:100%;
+    float:left;
+}
+.con_ina
+{
+
+}
+.btn_inr
+{
+    float:right;
+    margine-top:25px;
+}
+
+img.frame {
+  border-image: url('../assets/frame2.png') 93 92 87 92 stretch stretch; 
+  border-color: #f4be52;
+  border-style: inset;
+  border-width: 30px;
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #ffe; 
+}
+</style>
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+<section id="about" class="section-content about">
+        <div class="container">
+        	<div class="row">
+                <div class="col-md-6 col-md-offset-3">
+
+                    <div>
+             			<img src="../assets/icons/flag.png">
+					</div>
+                    <div class="clearfix"></div>
+
+                    <h2 class="name"><b>Prashant</b> Gautam</h2>
+                    <h3 class="position">Data Scientist</h3>
+                    <h4 class="text-center location">based in India</h4>
+                    <div class="title-divider">
+                        <span class="hr-divider col-xs-5"></span>
+                        <span class="icon-separator col-xs-2"><i class="fa fa-star"></i></span>
+                        <span class="hr-divider col-xs-5"></span>
+                    </div>
+
+                </div>
+                
+                <div class="col-md-12 col-md-offset-0 text-left">
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Summary</h4>
+                  <p>Eight years of experience in architecture, design, development & validation of software & embedded solutions and Data Science in Data Engineering, ETL processing, Machine Learning, Analysis (Descriptive, Diagnostic, Predictive, Prescriptive), IaaS, PaaS, SaaS cloud solutions. Experienced with Apache spark platform to process big data using cluster technology. Well-versed with Data Science process starting from Data Acquisition, Preparation, ETL, Feature extraction/Transformation, Feature selection, Hypothesis and Modeling using Machine Learning models and algorithms, Optimization and Deployment of solution.</p>
+
+                  <p>Being <b>Certified</b> in <b>Data Science</b>, I have acquired technical skills applied in various solutions in area of Anomaly Detection, Recommender System in e-Commerce, Sentiment Analysis. Instrumented in Data Engineering processes like ETL process, model deployment, model tuning. Architect solution in Cloud & Big Data space as career experience before Data Science role giving edge to shaping Data Science skills.</p>
+               </div>
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Certifications</h4>
+                  <h6>(26 Certifications)<a [routerLink]="['/achievements']">View all certifications</a></h6>
+
+
+                  <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                              <div class="modal-dialog modal-lg">
+                                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/8Y4TPWD2ESA2" target="_blank" style="float: right;"><font color="White">Verify Certificate</font></a>
+                                <h3><font color="White">Data Science Specialization</font></h3>
+                                          <img src="../assets/certificates/data-science-specialization.png" alt="" class="frame"/>
+
+                              </div>
+                          </div>
+                          <div class="modal fade bs-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                              <div class="modal-dialog modal-lg">
+                                <a href="https://www.coursera.org/account/accomplishments/records/2749R8PY5VAB" target="_blank" style="float: right;"><font color="White">Verify Certificate</font></a>
+                                <h3><font color="White">Machine Learning</font></h3>
+                                          <img src="../assets/certificates/machine-learning.png" alt="" class="frame"/>
+                              </div>
+                          </div>
+                          <div class="modal fade bs-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                              <div class="modal-dialog modal-lg">
+                                <a href="https://courses.edx.org/certificates/7c1e6434f58b47b68de51aab352716d4" target="_blank" style="float: right;"><font color="White">Verify Certificate</font></a>
+                                <h3><font color="White">Programming in R for Data Science</font></h3>
+                                          <img src="../assets/certificates/microsoft-certified-r-programming-certificate.png" alt="" class="frame"/>
+                              </div>
+                          </div>
+                          <div class="modal fade bs-example-modal-lg4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                              <div class="modal-dialog modal-lg">
+                                <a href="https://www.coursera.org/account/accomplishments/certificate/YQ5R82RNJKLG" target="_blank" style="float: right;"><font color="White">Verify Certificate</font></a>
+                                <h3><font color="White">Data Science Capstone</font></h3>
+                                          <img src="../assets/certificates/data-science-capstone.png" alt="" class="frame"/>
+                              </div>
+                          </div>
+                      <div style="clear:both;"></div>   
+                        <div id="portfolio">
+                          <div class="all data-science">
+                            <a data-toggle="modal" data-target=".bs-example-modal-lg"><img src="../assets/certificates/data-science-specialization.png" class="frame"/>JHU: Data Science Specialization</a>
+                          </div>
+                          <div style="clear:both;padding-bottom: 10px;"></div>
+                          <div class="all machine-learning">
+                            <a data-toggle="modal" data-target=".bs-example-modal-lg2"><img src="../assets/certificates/machine-learning.png" class="frame"/>Stanford University: Machine Learning</a>
+                          </div>
+                          <div style="clear:both;padding-bottom: 10px;"></div>
+                          <div class="all r-programming">
+                            <a data-toggle="modal" data-target=".bs-example-modal-lg3"><img src="../assets/certificates/microsoft-certified-r-programming-certificate.png" class="frame"/>Microsoft: Programming in R for Data Science</a>
+                          </div>
+                          <div style="clear:both;padding-bottom: 10px;"></div>
+                          <div class="all data-science">
+                            <a data-toggle="modal" data-target=".bs-example-modal-lg4"><img src="../assets/certificates/data-science-capstone.png" class="frame"/>JHU: Data Science Capstone Project</a>
+                          </div>
+                        </div>
+               </div>
+			               
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Techniques:</h4>
+                    <button type="button" class="btn"><b>Natural Language Processing</b></button>
+                    <button type="button" class="btn btn-default"><b>Sentiment analysis</b></button>
+                    <button type="button" class="btn"><b>Simulation</b></button>
+                    <button type="button" class="btn btn-default"><b>Optimization</b></button>
+                    <button type="button" class="btn"><b>Comparative analysis</b></button>
+                    <button type="button" class="btn btn-default"><b>Segmentation analysis</b></button>
+                    <button type="button" class="btn"><b>Time series analysis</b></button>
+                    <button type="button" class="btn btn-default"><b>Statistical analysis</b></button>
+                    <button type="button" class="btn"><b>Geospatial analysis</b></button>
+               </div>
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Data Source:</h4>
+                    <button type="button" class="btn"><b>SQL Databases</b></button>
+                    <button type="button" class="btn btn-default"><b>NoSQL</b></button>
+                    <button type="button" class="btn"><b>Spreadsheets</b></button>
+                    <button type="button" class="btn btn-default"><b>SAP Hana</b></button>
+                    <button type="button" class="btn"><b>Websites</b></button>
+                    <button type="button" class="btn btn-default"><b>Text</b></button>
+                    <button type="button" class="btn"><b>Images</b></button>
+                    <button type="button" class="btn btn-default"><b>Log files</b></button>
+                    <button type="button" class="btn"><b>Social network</b></button>
+                    <button type="button" class="btn btn-default"><b>Time series</b></button>
+                    <button type="button" class="btn"><b>Web APIs</b></button>
+                    <button type="button" class="btn btn-default"><b>Emails</b></button>
+                    <button type="button" class="btn"><b>Sensor data</b></button>
+               </div>
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>ETL Process:</h4>
+                    <button type="button" class="btn"><b>Text patterns</b></button>
+                    <button type="button" class="btn btn-default"><b>Data mining</b></button>
+                    <button type="button" class="btn"><b>Data cleansing</b></button>
+                    <button type="button" class="btn btn-default"><b>Data merging</b></button>
+                    <button type="button" class="btn"><b>Data verification</b></button>
+                    <button type="button" class="btn btn-default"><b>Data conversion</b></button>
+                    <button type="button" class="btn"><b>Aggregation</b></button>
+               </div>
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>ML Algorithms:</h4>
+                    <div>
+                      <h6 style="margin-left: 1vw; color:#771313;"><b>- Regression:</b></h6>
+                      <div style="margin-left: 1vw">
+                        <button type="button" class="btn"><b>Linear</b></button>
+                        <button type="button" class="btn btn-default"><b>Ridge</b></button>
+                        <button type="button" class="btn"><b>Lasso</b></button>
+                        <button type="button" class="btn btn-default"><b>Elastic net</b></button>
+                        <button type="button" class="btn"><b>Survival</b></button>
+                        <button type="button" class="btn btn-default"><b>Isotonic</b></button>
+                        <button type="button" class="btn"><b>Kernel</b></button>
+                      </div>
+                    </div>
+                    <div>
+                      <h6 style="margin-left: 1vw; color:#771313;"><b>- Classification:</b></h6>
+                      <div style="margin-left: 1vw">
+                        <button type="button" class="btn btn-default"><b>Logistic</b></button>
+                        <button type="button" class="btn"><b>Decision Tree</b></button>
+                        <button type="button" class="btn btn-default"><b>Random forest</b></button>
+                        <button type="button" class="btn"><b>Gradient boosted</b></button>
+                        <button type="button" class="btn btn-default"><b>SVM</b></button>
+                        <button type="button" class="btn"><b>Naive Bayes</b></button>
+                      </div>
+                    </div>
+                    <div>
+                      <h6 style="margin-left: 1vw; color:#771313;"><b>- Clustering & Retrieval:</b></h6>
+                      <div style="margin-left: 1vw">
+                        <button type="button" class="btn btn-default"><b>KNN</b></button>
+                        <button type="button" class="btn"><b>K-means</b></button>
+                        <button type="button" class="btn btn-default"><b>LDA</b></button>
+                        <button type="button" class="btn"><b>Gaussian mixture</b></button>
+                      </div>
+                    </div>
+                    <div>
+                      <h6 style="margin-left: 1vw; color:#771313;"><b>- Anomaly:</b></h6>
+                      <div style="margin-left: 1vw">
+                        <button type="button" class="btn btn-default"><b>Local Outlier Factor</b></button>
+                        <button type="button" class="btn"><b>Moving Z-score</b></button>
+                        <button type="button" class="btn btn-default"><b>Bayesian Changepoints</b></button>
+                      </div>
+                    </div>
+               </div>
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Optimization Algorithms:</h4>
+          					  <button type="button" class="btn"><b>Principal Component Analysis</b></button>
+          					  <button type="button" class="btn btn-default"><b>Singular Value Decomposition</b></button>
+          					  <button type="button" class="btn btn"><b>Stochastic Gradient Descent</b></button>
+          					  <button type="button" class="btn btn-default"><b>Alternating Least Squares</b></button>
+          					  <button type="button" class="btn btn"><b>Gradient Descent</b></button>
+          					  <button type="button" class="btn btn-default"><b>Coordinate Descent</b></button>
+          					  <button type="button" class="btn btn"><b>Boosting</b></button>
+          					  <button type="button" class="btn btn-default"><b>Grid Search</b></button>
+          					  <button type="button" class="btn btn"><b>Batch Gradient Descent</b></button>
+                      <button type="button" class="btn btn-default"><b>Expectation Maximization</b></button>
+                      <button type="button" class="btn btn"><b>LSH</b></button>
+                      <button type="button" class="btn btn-default"><b>KD Tree</b></button>
+                      <button type="button" class="btn btn"><b>Ball Tree</b></button>
+               </div>
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Machine Learning Model Validation Techniques:</h4>
+                      <button type="button" class="btn"><b>Cross Validation</b></button>
+                      <button type="button" class="btn btn-default"><b>Loss function</b></button>
+                      <button type="button" class="btn btn"><b>Stochastic Gradient Descent</b></button>
+                      <button type="button" class="btn btn-default"><b>Alternating Least Squares</b></button>
+                      <button type="button" class="btn btn"><b>Gradient Descent</b></button>
+                      <button type="button" class="btn btn-default"><b>Coordinate Descent</b></button>
+                      <button type="button" class="btn btn"><b>Boosting</b></button>
+                      <button type="button" class="btn btn-default"><b>Grid Search</b></button>
+                      <button type="button" class="btn btn"><b>Batch Gradient Descent</b></button>
+                      <button type="button" class="btn btn-default"><b>Expectation Maximization</b></button>
+                      <button type="button" class="btn btn"><b>LSH</b></button>
+                      <button type="button" class="btn btn-default"><b>KD Tree</b></button>
+                      <button type="button" class="btn btn"><b>Ball Tree</b></button>
+               </div>
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Evaluation Matrix:</h4>
+                      <button type="button" class="btn"><b>Precision-Recall</b></button>
+                      <button type="button" class="btn btn-default"><b>F-scores</b></button>
+                      <button type="button" class="btn btn"><b>Receiver Operating Characteristic</b></button>
+                      <button type="button" class="btn btn-default"><b>Area Under Curve</b></button>
+                      <button type="button" class="btn btn"><b>Confusion Matrix</b></button>
+                      <button type="button" class="btn btn-default"><b>Residual Sum of Squares</b></button>
+                      <button type="button" class="btn btn"><b>Root Mean Square Error</b></button>
+                      <button type="button" class="btn btn-default"><b>Accuracy</b></button>
+                      <button type="button" class="btn btn"><b>Cost Function</b></button>
+                      <button type="button" class="btn btn-default"><b>Loss function</b></button>
+               </div>
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Frameworks:</h4>
+                      <button type="button" class="btn"><b>TensorFlow</b></button>
+                      <button type="button" class="btn btn-default"><b>Scikit-Learn</b></button>
+                      <button type="button" class="btn btn"><b>Spark (SQL, Streaming, MLlib)</b></button>
+                      <button type="button" class="btn btn-default"><b>Area Under Curve</b></button>
+                      <button type="button" class="btn btn"><b>Graphlab Create</b></button>
+                      <button type="button" class="btn btn-default"><b>Apache Spark</b></button>
+                      <button type="button" class="btn btn"><b>Hadoop</b></button>
+               </div>
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Tools:</h4>
+                      <button type="button" class="btn"><b>Tableau</b></button>
+                      <button type="button" class="btn btn-default"><b>Qlikview</b></button>
+                      <button type="button" class="btn btn"><b>Power BI</b></button>
+                      <button type="button" class="btn btn-default"><b>JIRA</b></button>
+                      <button type="button" class="btn btn"><b>Jenkins</b></button>
+               </div>
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Languages:</h4>
+                      <button type="button" class="btn"><b>SCALA</b></button>
+                      <button type="button" class="btn btn-default"><b>Python</b></button>
+                      <button type="button" class="btn btn"><b>R</b></button>
+                      <button type="button" class="btn btn-default"><b>JAVA</b></button>
+                      <button type="button" class="btn btn"><b>Javascript</b></button>
+                      <button type="button" class="btn btn-default"><b>PHP</b></button>
+               </div>
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Web Frameworks:</h4>
+                    <button type="button" class="btn"><b>Django</b></button>
+                    <button type="button" class="btn btn-default"><b>Flask</b></button>
+                    <button type="button" class="btn"><b>Nodejs</b></button>
+                    <button type="button" class="btn btn-default"><b>Angular</b></button>
+                    <button type="button" class="btn"><b>Cakephp3</b></button>                    
+                    <button type="button" class="btn btn-default"><b>CodeIgniter</b></button>
+                    <button type="button" class="btn"><b>Zend</b></button>
+                    <button type="button" class="btn btn-default"><b>Symphony</b></button>
+               </div>
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Databases:</h4>
+					  <button type="button" class="btn"><b>Cassandra</b></button>
+					  <button type="button" class="btn btn-default"><b>MongoDB</b></button>
+					  <button type="button" class="btn"><b>MySQL</b></button>
+					  <button type="button" class="btn btn-default"><b>SQL</b></button>
+					  <button type="button" class="btn"><b>PostgreSQL</b></button>
+					  <button type="button" class="btn btn-default"><b>Oracle 8I</b></button>
+					  <button type="button" class="btn"><b>Access (Jet, MSDE)</b></button>
+               </div>
+
+
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>IDEs:</h4>
+                    <button type="button" class="btn"><b>R Studio</b></button>
+                    <button type="button" class="btn btn-default"><b>Jupyter Notebook</b></button>
+          				  <button type="button" class="btn"><b>Intellij IDEA</b></button>
+          				  <button type="button" class="btn btn-default"><b>Scala IDE</b></button>
+          				  <button type="button" class="btn"><b>Matlab</b></button>
+          				  <button type="button" class="btn btn-default"><b>Netbeans</b></button>
+          				  <button type="button" class="btn"><b>Eclipse</b></button>
+          				  <button type="button" class="btn btn-default"><b>Sublime Text3</b></button>
+               </div>
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Cloud Services:</h4>
+					  <button type="button" class="btn"><b>Amazon Web Services (AWS)</b></button>
+					  <button type="button" class="btn btn-default"><b>Google Apps</b></button>
+					  <button type="button" class="btn"><b>Twilio</b></button>
+               </div>
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Cloud Platforms:</h4>
+					  <button type="button" class="btn"><b>Amazon</b></button>
+					  <button type="button" class="btn btn-default"><b>Google Cloud</b></button>
+					  <button type="button" class="btn"><b>RackSpace</b></button>
+					  <button type="button" class="btn btn-default"><b>GoDaddy</b></button>
+               </div>
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Version Control System:</h4>
+                      <button type="button" class="btn btn-default"><b>Bitbucket</b></button>
+                      <button type="button" class="btn btn"><b>GIT</b></button>
+                      <button type="button" class="btn btn-default"><b>SVN</b></button>
+                      <button type="button" class="btn btn"><b>Bugzilla</b></button>
+               </div>
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Streaming Media Systems:</h4>
+					  <button type="button" class="btn"><b>Wowza</b></button>
+					  <button type="button" class="btn btn-default"><b>Red5</b></button>
+					  <button type="button" class="btn"><b>FFserver</b></button>
+               </div>
+
+               <div class="bs-callout bs-callout-danger">
+                  <h4>Projects worked on:</h4>
+                  	<div>
+						<ul>
+						    <span><b>-Branding and promotional offerings for Multi-Speciality Hospital Group</b></span><br/><br/>
+
+						    <span><b>-Optimizing multi-location, multi-specialty Hospital Group performance through actionable insights</b></span><br/><br/>
+
+						    <span><b>-Analysis and Optimization of Retail Operations and Supply Chain Management</b></span><br/><br/>
+
+						    <span><b>-Vehicle Monitoring & Real-time Alerting System</b></span><br/><br/>
+
+						    <span><b>-Network Operation Center(NOC) Automation</b></span><br/><br/>
+
+						    <span><b>-Online Store Hosting Service</b></span><br/><br/>
+
+						    <span><b>-Hotel Management System</b></span><br/><br/>
+
+						    <span><b>-HRMS Management System</b></span>
+						</ul>
+					</div>
+               </div>
+
+
+
+
+			                </div>
+
+			            </div>
+				        </div>
+
+
+</section>
